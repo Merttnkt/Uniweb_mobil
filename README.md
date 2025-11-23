@@ -39,22 +39,26 @@ Uniweb Mobile, ogrencilerin sinav hazirlik surecini optimize etmelerine yardimci
 ### Adimlar
 
 1. Repoyu klonlayin:
+
    ```bash
    git clone https://github.com/kullanici-adi/uniweb-mobile.git
    cd uniweb-mobile
    ```
 
 2. Bagimliliklari yukleyin:
+
    ```bash
    npm install
    ```
 
 3. Ortam degiskenlerini ayarlayin:
+
    ```bash
    cp .env.example .env
    ```
 
    `.env` dosyasini duzenleyip kendi API anahtarlarinizi ekleyin:
+
    ```
    EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
    EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
@@ -62,6 +66,7 @@ Uniweb Mobile, ogrencilerin sinav hazirlik surecini optimize etmelerine yardimci
    ```
 
 4. Uygulamayi baslatin:
+
    ```bash
    npx expo start
    ```
@@ -99,14 +104,6 @@ Uniweb Mobile, ogrencilerin sinav hazirlik surecini optimize etmelerine yardimci
 │   └── aiService.ts      # Gemini AI servisi
 └── constants/            # Sabitler ve tema
 ```
-
-## Ekran Goruntuleri
-
-_Ekran goruntuleri eklenecek_
-
-## Lisans
-
-Bu proje MIT lisansi altinda lisanslanmistir.
 
 ## Iletisim
 
